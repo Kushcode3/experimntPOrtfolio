@@ -1,154 +1,21 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background: #333;
+    background-color: #333;
     color: white;
-    padding: 1rem 0;
     text-align: center;
+    padding: 1em 0;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-#hero {
-    background-color: #e9f5fd;
-    padding: 4rem 0;
-    text-align: center;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-
-.cta-button {
-    display: inline-block;
-    background: #333;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+section {
+    margin: 2em;
+    padding: 1em;
+    background-color: white;
     border-radius: 5px;
-    margin-top: 20px;
-}
-
-#projects {
-    padding: 3rem 0;
-    text-align: center;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-     margin: 20px auto;
-    padding: 10px;
-
-}
-
-.project-card {
-     background-color: white;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-
-#skills {
-    background-color: #f0f0f0;
-    padding: 3rem 0;
-    text-align: center;
-}
-
-.skills-list {
-    list-style: none;
-    padding: 0;
-     max-width: 600px;
-    margin: 20px auto;
-}
-
-
-.skills-list li {
-    display: inline-block;
-     background-color: #ddd;
-     margin: 5px;
-     padding: 10px;
-     border-radius: 5px;
-}
-#contact {
-    padding: 3rem 0;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-.form-group input,
-.form-group textarea {
-      width: 100%;
-    padding: 10px;
-     border: 1px solid #ccc;
-    border-radius: 5px;
-     box-sizing: border-box; /* include padding and border */
-}
-
-.submit-button {
-     background: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-     position: relative;
-    bottom: 0;
-     width: 100%;
-}
-/* Optional: Add some responsiveness */
-@media (max-width: 768px) {
-   header nav ul li {
-        display: block; /* Stack list items */
-        margin: 5px 0; /* Add some vertical space */
-    }
-
-   .project-grid {
-        grid-template-columns: 1fr; /* Display projects in one column */
-    }
-
-    .skills-list li {
-        display: block;
-        margin-bottom: 10px;
-    }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
