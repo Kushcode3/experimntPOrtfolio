@@ -1,107 +1,97 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Data Scientist showcasing skills and projects">
+    <meta name="author" content="Your Name">
+    <title>Your Name - Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-}
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>Data Scientist | Machine Learning Enthusiast | Python Developer</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </section>
 
-h1, h2, h3 {
-    color: #333;
-}
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a data scientist passionate about solving complex problems using data. My expertise spans machine learning, data analysis, and building data-driven solutions across industries such as finance, healthcare, and marketing.</p>
+            <p>With a strong foundation in Python, R, and SQL, I love experimenting with data and building scalable solutions using the latest technologies and techniques like deep learning, NLP, and big data analytics.</p>
+        </div>
+    </section>
 
-a {
-    text-decoration: none;
-    color: #1e90ff;
-    transition: color 0.3s ease;
-}
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: House Price Prediction Model</h3>
+                <p>Built a machine learning model to predict house prices using features like square footage, location, and year built.</p>
+                <a href="https://github.com/your-github/house-price-prediction" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Customer Segmentation with K-Means</h3>
+                <p>Implemented unsupervised learning techniques to segment customers based on purchasing behavior for targeted marketing strategies.</p>
+                <a href="https://github.com/your-github/customer-segmentation" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Project 3: Sentiment Analysis with NLP</h3>
+                <p>Used NLP techniques to analyze social media data for sentiment classification and actionable insights into customer opinions.</p>
+                <a href="https://github.com/your-github/sentiment-analysis" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
 
-a:hover {
-    color: #ff6347;
-}
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Python, R, SQL</li>
+                <li>Machine Learning: scikit-learn, TensorFlow, Keras</li>
+                <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
+                <li>Data Manipulation: Pandas, NumPy</li>
+                <li>Cloud Computing: AWS, GCP</li>
+                <li>Big Data: Hadoop, Spark</li>
+                <li>Version Control: Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to collaborate or chat about data science, feel free to reach out!</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a></p>
+            <p>GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a></p>
+        </div>
+    </section>
 
-.container {
-    width: 85%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-/* Header Styles */
-header {
-    background-color: #343a40;
-    color: white;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header nav ul li {
-    margin: 0 30px;
-}
-
-header nav ul li a {
-    color: white;
-    font-weight: 500;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-header nav ul li a:hover {
-    color: #ff6347;
-}
-
-/* Home Section */
-#home {
-    background-color: #1e90ff;
-    color: white;
-    text-align: center;
-    padding: 120px 0;
-    border-bottom: 3px solid #f8f9fa;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#home h1 {
-    font-size: 3.5em;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-#home p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-#home .btn {
-    background-color: #fff;
-    color: #1e90ff;
-    padding: 12px 30px;
-    font-size: 1.2em;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: 600;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-#home .btn:hover {
-    b
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
