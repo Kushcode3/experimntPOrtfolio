@@ -1,97 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Data Science Portfolio Website Template | WIX</title>
+    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of a Data Scientist showcasing skills and projects">
-    <meta name="author" content="Your Name">
-    <title>Your Name - Data Scientist Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+
+     <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+    <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madefor.min.css">
+    <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madeforDisplay.min.css">
+     
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css"> 
+   
+    <meta name="description" content="Showcase your data science skills and projects with this clean and professional portfolio template. Highlight your expertise in machine learning, data analysis, and visualization.  Perfect for data scientists, analysts, and researchers looking to present their work effectively. Simply click 'Edit' to add your projects, case studies, and technical skills.">
+    <meta name="author" content="Wixpress">
+    <meta http-equiv="content-language" content="en">
+
+
+    <meta property="og:title" content="Data Science Portfolio Website Template | WIX">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.wix.com/website-template/view/html/data-science-portfolio">
+    <meta property="og:image" content="//static.wixstatic.com/media/your_data_science_template_image.jpg">  
+    <meta content="Wix" property="og:site_name">
+    <meta property="og:description" content="Showcase your data science skills and projects with this clean and professional portfolio template. Highlight your expertise in machine learning, data analysis, and visualization.  Perfect for data scientists, analysts, and researchers looking to present their work effectively. Simply click 'Edit' to add your projects, case studies, and technical skills.">
+    <meta property="fb:admins" content="731184828">
+    <meta name="fb:app_id" content="236335823061286">
+    <meta name="google-site-verification" content="QXhlrY-V2PWOmnGUb8no0L-fKzG48uJ5ozW0ukU7Rpo">
+
+    <link rel="canonical" href="https://www.wix.com/website-template/view/html/data-science-portfolio">
+  <!-- Language Alternate Links -->
+    <link rel="alternate" hreflang="fr" href="https://fr.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="pt" href="https://pt.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="cs" href="https://cs.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="it" href="https://it.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="nl" href="https://nl.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="ko" href="https://ko.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="de" href="https://de.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="ru" href="https://ru.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="sv" href="https://sv.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="tr" href="https://tr.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="da" href="https://da.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="en" href="https://www.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="es" href="https://es.wix.com/website-template/view/html/data-science-portfolio">
+     <link rel="alternate" hreflang="hi" href="https://hi.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="ja" href="https://ja.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="no" href="https://no.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="pl" href="https://pl.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="vi" href="https://vi.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="uk" href="https://uk.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="zh" href="https://zh.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="th" href="https://th.wix.com/website-template/view/html/data-science-portfolio">
+    <link rel="alternate" hreflang="x-default" href="https://www.wix.com/website-template/view/html/data-science-portfolio">
+     
+   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":"https://www.wix.com","name":"Wix.com"},{"@type":"ListItem","position":2,"item":"https://www.wix.com/website/templates","name":"Website Templates"},{"@type":"ListItem","position":3,"item":"https://www.wix.com/website/templates/html/portfolio-cv","name":"Portfolio & CV"},{"@type":"ListItem","position":4,"item":"https://www.wix.com/website/templates/html/portfolio-cv/resumes-cvs","name":"Data Science Portfolios"},{"@type":"ListItem","position":5,"name":"Data Science Portfolio Website Template","item":"https://www.wix.com/website-template/view/html/data-science-portfolio"}]}</script>
+
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+   <!-- START of all script tag section -->
+    <script>
+        window.onWixRecorderLoaded = function () {
+            window.dispatchEvent(new Event('wixRecorderReady'));
+        };
+    </script>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1>Hello, I'm [Your Name]</h1>
-            <p>Data Scientist | Machine Learning Enthusiast | Python Developer</p>
-            <a href="#about" class="btn">Learn More About Me</a>
-        </div>
-    </section>
+    <script async="" src="//static.parastorage.com/unpkg-semver/wix-recorder/app.bundle.min.js" crossorigin="" onload="onWixRecorderLoaded()"></script>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a data scientist passionate about solving complex problems using data. My expertise spans machine learning, data analysis, and building data-driven solutions across industries such as finance, healthcare, and marketing.</p>
-            <p>With a strong foundation in Python, R, and SQL, I love experimenting with data and building scalable solutions using the latest technologies and techniques like deep learning, NLP, and big data analytics.</p>
-        </div>
-    </section>
+    <script src="//static.parastorage.com/services/cookie-sync-service/1.347.20/embed-cidx.bundle.min.js"></script>
+    <script src="//static.parastorage.com/services/tag-manager-client/1.920.0/hostTags.bundle.min.js"></script>
+  
+  <!-- SENTRY (You may want to adjust/remove Sentry if not using) -->
+    <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C3SI0CO4C3S2QIOV7NI0&lib=ttq"></script>
+    <script src="https://s.yimg.com/wi/ytc.js" async=""></script>
+    <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CKA47TJC77U7REM9C0R0&lib=ttq"></script>
+    <script src="https://connect.facebook.net/signals/config/704136006388169?v=2.9.180&r=stable&domain=www.wix.com&hme=1b2b48fb279bc2e2881583cc2153b57f55e340ed882b2c5394167c8bc992d930&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C174%2C177%2C189%2C185%2C186%2C188%2C29%2C101%2C53%2C77%2C187%2C169%2C172%2C182%2C183%2C190%2C132%2C41%2C192%2C193%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C170%2C173%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113" async=""></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script>
+    <script type="text/javascript" async="" src="https://static.ads-twitter.com/uwt.js"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-1041825691&l=dataLayer&cx=c&gtm=45He51n0v6319694za200"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-1006927621&l=dataLayer&cx=c&gtm=45He51n0v6319694za200"></script>
+    <script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=DC-4382365&l=dataLayer&cx=c&gtm=45He51n0v6319694za200"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-46CXENL4NC&l=dataLayer&cx=c&gtm=45He51n0v6319694za200"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MDD5C4"></script>
+   
+  <script id="sentry">
+  (function(c,u,v,n,p,e,z,A,w){function k(a){if(!x){x=!0;var l=u.getElementsByTagName(v)[0],d=u.createElement(v);d.src=A;d.crossorigin="anonymous";d.addEventListener("load",function(){try{c[n]=r;c[p]=t;var b=c[e],d=b.init;b.init=function(a){for(var b in a)Object.prototype.hasOwnProperty.call(a,b)&&(w[b]=a[b]);d(w)};B(a,b)}catch(g){console.error(g)}});l.parentNode.insertBefore(d,l)}}function B(a,l){try{for(var d=m.data,b=0;b<a.length;b++)if("function"===typeof a[b])a[b]();var e=!1,g=c.__SENTRY__;"undefined"!==
+  typeof g&&g.hub&&g.hub.getClient()&&(e=!0);g=!1;for(b=0;b<d.length;b++)if(d[b].f){g=!0;var f=d[b];!1===e&&"init"!==f.f&&l.init();e=!0;l[f.f].apply(l,f.a)}!1===e&&!1===g&&l.init();var h=c[n],k=c[p];for(b=0;b<d.length;b++)d[b].e&&h?h.apply(c,d[b].e):d[b].p&&k&&k.apply(c,[d[b].p])}catch(C){console.error(C)}}for(var f=!0,y=!1,q=0;q<document.scripts.length;q++)if(-1<document.scripts[q].src.indexOf(z)){f="no"!==document.scripts[q].getAttribute("data-lazy");break}var x=!1,h=[],m=function(a){(a.e||a.p||a.f&&
+  -1<a.f.indexOf("capture")||a.f&&-1<a.f.indexOf("showReportDialog"))&&f&&k(h);m.data.push(a)};m.data=[];c[e]=c[e]||{};c[e].onLoad=function(a){h.push(a);f&&!y||k(h)};c[e].forceLoad=function(){y=!0;f&&setTimeout(function(){k(h)})};"init addBreadcrumb captureMessage captureException captureEvent configureScope withScope showReportDialog".split(" ").forEach(function(a){c[e][a]=function(){m({f:a,a:arguments})}});var r=c[n];c[n]=function(a,e,d,b,f){m({e:[].slice.call(arguments)});r&&r.apply(c,arguments)};
+  var t=c[p];c[p]=function(a){m({p:a.reason});t&&t.apply(c,arguments)};f||setTimeout(function(){k(h)})})(window,document,"script","onerror","onunhandledrejection","Sentry","b4e7a2b423b54000ac2058644c76f718","https://static.parastorage.com/unpkg/@sentry/browser@5.27.4/build/bundle.min.js",{"dsn":"https://b4e7a2b423b54000ac2058644c76f718@sentry.wixpress.com/217"});
+  </script>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1: House Price Prediction Model</h3>
-                <p>Built a machine learning model to predict house prices using features like square footage, location, and year built.</p>
-                <a href="https://github.com/your-github/house-price-prediction" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 2: Customer Segmentation with K-Means</h3>
-                <p>Implemented unsupervised learning techniques to segment customers based on purchasing behavior for targeted marketing strategies.</p>
-                <a href="https://github.com/your-github/customer-segmentation" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Project 3: Sentiment Analysis with NLP</h3>
-                <p>Used NLP techniques to analyze social media data for sentiment classification and actionable insights into customer opinions.</p>
-                <a href="https://github.com/your-github/sentiment-analysis" target="_blank">View on GitHub</a>
-            </div>
-        </div>
-    </section>
+    <script type="text/javascript">
+    window.Sentry.onLoad(function () {
+      window.Sentry.init({
+        "release": "marketing-template-viewer@1.2338.0",
+        "environment": "production",
+        "allowUrls": undefined,
+        "denyUrls": undefined
+});
+      window.Sentry.configureScope(function (scope) {
+        scope.setUser({
+          id: "null-user-id:0a97d053-cdf0-4bcc-8792-13db33c547a8",
+          clientId: "0a97d053-cdf0-4bcc-8792-13db33c547a8",
+        });
+        scope.setExtra("user.authenticated", false);
+        scope.setExtra("sessionId", "8d261d77-d598-4d6a-a91d-400d18a35814");
+      });
+    });
+    </script>
+   <!-- END SENTRY -->
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming: Python, R, SQL</li>
-                <li>Machine Learning: scikit-learn, TensorFlow, Keras</li>
-                <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
-                <li>Data Manipulation: Pandas, NumPy</li>
-                <li>Cloud Computing: AWS, GCP</li>
-                <li>Big Data: Hadoop, Spark</li>
-                <li>Version Control: Git, GitHub</li>
-            </ul>
-        </div>
-    </section>
+     <script src="https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&flags=gated&unknown=polyfill"></script>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to collaborate or chat about data science, feel free to reach out!</p>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn</a></p>
-            <p>GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub</a></p>
-        </div>
-    </section>
+    <script>
+        window.onWixFedopsLoggerLoaded = function () {
+            window.fedopsLogger && window.fedopsLogger.reportAppLoadStarted('marketing-template-viewer');
+        }
+    </script>
+    <script onload="onWixFedopsLoggerLoaded()" src="//static.parastorage.com/unpkg/@wix/fedops-logger@5.508.0/dist/statics/fedops-logger.bundle.min.js" crossorigin=""></script>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+
+<script src="//static.parastorage.com/services/tag-manager-host-scripts/1.971.0//assets/TEMPLATES/google-tag-manager.js"></script>
+  <script src="https://bat.bing.com/p/action/36000948.js" type="text/javascript" async="" data-ueto="ueto_e91cb1ffef"></script>
+  <script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1041825691/?random=1737714691430&cv=11&fst=1737714691430&bg=ffffff&guid=ON&async=1&gtm=45He51n0v6319694za201zb6319694&gcd=13t3t3t3t5l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1229&u_h=692&url=https%3A%2F%2Fwww.wix.com%2Fwebsite-template%2Fview%2Fhtml%2Fdata-science-portfolio%3ForiginUrl%3Dhttps%253A%252F%252Fwww.wix.com%252Fwebsite%252Ftemplates%252Fhtml%252Fportfolio-cv%252Fpersonal%26tpClick%3Dview_button%26esi%3De2eb9ab7-40c9-4d06-8416-4351c0ed5ca4&ref=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal&label=FYMYCO-T6gMQm__j8AM&hn=www.googleadservices.com&frm=0&tiba=Data%20Science%20Portfolio%20Website%20Template%20%7C%20WIX&userId=null-user-id&npa=0&pscdl=noapi&auid=799786285.1737714177&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&rfmt=3&fmt=4"></script>
+    <script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/1006927621/?random=1737714691494&cv=11&fst=1737714691494&bg=ffffff&guid=ON&async=1&gtm=45be51n0v9133290662z86319694za201zb6319694&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=101509156~102067555~102067808~102081485~102123608&u_w=1229&u_h=692&url=https%3A%2F%2Fwww.wix.com%2Fwebsite-template%2Fview%2Fhtml%2Fdata-science-portfolio%3ForiginUrl%3Dhttps%253A%252F%252Fwww.wix.com%252Fwebsite%252Ftemplates%252Fhtml%252Fportfolio-cv%252Fpersonal%26tpClick%3Dview_button%26esi%3De2eb9ab7-40c9-4d06-8416-4351c0ed5ca4&ref=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal&label=Jza8CKKX8MgBEIX-keAD&hn=www.googleadservices.com&frm=0&tiba=Data%20Science%20Portfolio%20Website%20Template%20%7C%20WIX&oid=null-user-id&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=799786285.1737714177&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&capi=1&rfmt=3&fmt=4"></script>
+    <script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/1006927621/?random=1737714691500&cv=11&fst=1737714691500&bg=ffffff&guid=ON&async=1&gtm=45be51n0v9133290662z86319694za201zb6319694&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=101509156~102067555~102067808~102081485~102123608&u_w=1229&u_h=692&url=https%3A%2F%2Fwww.wix.com%2Fwebsite-template%2Fview%2Fhtml%2Fdata-science-portfolio%3ForiginUrl%3Dhttps%253A%252F%252Fwww.wix.com%252Fwebsite%252Ftemplates%252Fhtml%252Fportfolio-cv%252Fpersonal%26tpClick%3Dview_button%26esi%3De2eb9ab7-40c9-4d06-8416-4351c0ed5ca4&ref=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal&label=bzk8CJTkotIDEIX-keAD&hn=www.googleadservices.com&frm=0&tiba=Data%20Science%20Portfolio%20Website%20Template%20%7C%20WIX&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=799786285.1737714177&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&capi=1&rfmt=3&fmt=4"></script>
+   <script type="text/javascript" src="//static.parastorage.com/services/dealer-lightbox/2.0.260/dealer-lightbox-module.bundle.min.js"></script>
+
+    <script attributionsrc="" type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/1006927621/?random=1737714712881&cv=11&fst=1737714712881&bg=ffffff&guid=ON&async=1&gtm=45be51n0v9133290662z86319694za201zb6319694&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=101509156~102067555~102067808~102081485~102123608&u_w=1229&u_h=692&url=https%3A%2F%2Fwww.wix.com%2Fwebsite-template%2Fview%2Fhtml%2Fdata-science-portfolio%3ForiginUrl%3Dhttps%253A%252F%252Fwww.wix.com%252Fwebsite%252Ftemplates%252Fhtml%252Fportfolio-cv%252Fpersonal%26tpClick%3Dview_button%26esi%3De2eb9ab7-40c9-4d06-8416-4351c0ed5ca4&ref=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal&label=HDYWCN-OhZQZEIX-keAD&hn=www.googleadservices.com&frm=0&tiba=Data%20Science%20Portfolio%20Website%20Template%20%7C%20WIX&oid=null-user-id&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=799786285.1737714177&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&capi=1&rfmt=3&fmt=4"></script>
+    <!-- End all Script Tags -->
+ 
+
+ <div id="root">
+    <span data-newcolorsbranding="true" class="wds_1_154_0_newColorsBranding__root wds_1_154_0_madefor__madefor">
+        <div data-hook="app">
+            <div data-hook="tool-bar" class="sbWfkE">
+                <div class="Mn4893">
+                    <div class="bZOLNF">
+                        <
