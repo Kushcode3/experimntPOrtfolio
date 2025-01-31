@@ -1,21 +1,61 @@
+/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+/* Home Section Styling */
+.home-section {
+  background-color: #f8f9fa;
+  padding-top: 80px; /* Prevents content overlap with sticky navbar */
 }
 
-section {
-    margin: 2em;
-    padding: 1em;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.home-section .display-4 {
+  color: #333;
+}
+
+.home-section .lead {
+  color: #555;
+}
+
+/* About Section Styling */
+.about-section {
+  background-color: #fff;
+}
+
+.about-section img {
+  border: 5px solid #333;
+}
+
+/* Projects Section Styling */
+.projects-section .card {
+  border-radius: 10px;
+}
+
+.projects-section .card-body .btn {
+  margin-right: 10px;
+}
+
+/* Skills Section Styling */
+.skills-section .card {
+  border-radius: 10px;
+}
+
+.skills-section .card-body .btn {
+  margin-top: 10px;
+}
+
+/* Contact Section Styling */
+.contact-section {
+  background-color: #333;
+}
+
+.contact-section .contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f1f1f1;
 }
