@@ -1,179 +1,293 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KULDEEP</title>
-  
-  <!-- Bootstrap CSS (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Link to external custom CSS -->
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<!DOCTYPE HTML>
 
-  <!-- Navigation Bar (Sticky) -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">KULDEEP</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <!-- Resume Download Button -->
-        <a href="path/to/your/resume.pdf" class="btn btn-primary ms-3" download>Download Resume</a>
-      </div>
-    </div>
-  </nav>
+<html>
+	<head>
+		<title>Kuldeep's Data Science Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-  <!-- Home Section -->
-  <section id="home" class="home-section text-center">
-    <div class="container py-5">
-      <h1 class="display-4">Welcome to My Portfolio</h1>
-      <p class="lead">I'm a passionate Data Scientist ready to take on new challenges.</p>
-    </div>
-  </section>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  <!-- About Section -->
-  <section id="about" class="about-section py-5">
-    <div class="container">
-      <h2 class="text-center">About Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <img src="images/about.jpg" alt="Your Profile Picture" class="rounded-circle img-fluid border" style="width: 150px;">
-        </div>
-        <div class="col-md-6">
-          <p>I'm a Data Scientist with a experience in designing, fine-tuning, and deploying models for various AI applications, including Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Computer vision, developing predictive models and data extraction systems to extract insights from unstructured data, classification system, improving operational efficiency and enabling data-driven decision-making.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center">Projects</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Ad optimization.</p>
-              <a href="#" class="btn btn-primary">Blog Post</a>
-              <a href="#" class="btn btn-secondary">Source Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Medical Chatbot</p>
-              <a href="#" class="btn btn-primary">Blog Post</a>
-              <a href="#" class="btn btn-secondary">Source Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">RAG</p>
-              <a href="#" class="btn btn-primary">Blog Post</a>
-              <a href="#" class="btn btn-secondary">Source Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Kuldeep's</strong> Data Science Portfolio</a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+										
+									</ul>
+								</header>
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills-section py-5">
-    <div class="container">
-      <h2 class="text-center">Skills</h2>
-      <div class="row">
-        <div class="col-md-3 mb-4">
-          <div class="card">
-            <img src="images/skills/1.png" class="card-img-top" alt="Python">
-            <div class="card-body">
-              <h5 class="card-title">Python</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
-              <a href="#" class="btn btn-link">Link to course or bootcamp</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-4">
-          <div class="card">
-            <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
-            <div class="card-body">
-              <h5 class="card-title">Data Visualization</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
-              <a href="#" class="btn btn-link">Link to course or bootcamp</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-4">
-          <div class="card">
-            <img src="images/skills/3.png" class="card-img-top" alt="SQL">
-            <div class="card-body">
-              <h5 class="card-title">SQL</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
-              <a href="#" class="btn btn-link">Link to course or bootcamp</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-4">
-          <div class="card">
-            <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
-            <div class="card-body">
-              <h5 class="card-title">Data Storytelling</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
-              <a href="#" class="btn btn-link">Link to course or bootcamp</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<!-- Introduction -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h2>Hi, I’m Kuldeep<br /><h2>
+											<h2>Data Scientist | AI/ML Practioner</h2>
+											<p>Get To Know More</p>
+										</header>
+										<h4>I’m a Data Scientist with 2 years of experience specializing in machine learning models and Generative AI applications.<br />
+										Experienced in designing, fine-tuning and deploying models for business solutions, improving operational efficiency and enabling data-driven decision-making.<br /><br />
+										Experienced in Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Computer vision, developing predictive & classification models and data extraction models to extract insights from unstructured data.<br /><br />
+										My journey into data science and machine learning is a captivating evolution. I've always been drawn towards the world of problem-solving and data provides the perfect canvas for curious mind to explore and innovate.<br /><br />
+										What excites me most about this field is its constant evolution, dynamic challenges and the continuous learning it demands. I firmly believe in the transformative power of data to reshape industries and drive innovation and I'm here to be a part of that transformation.<h4>
+										<ul class="actions">
+											<li><a href="generic.html" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/profile_image.jpg" alt="" />
+									</span>
+								</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section py-5 bg-dark text-white">
-    <div class="container">
-      <h2 class="text-center">Contact Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-4 text-center mb-4">
-          <img src="icons/mail.png" alt="Mail Icon" class="contact-icon">
-          <p>your.email@example.com</p>
-        </div>
-        <div class="col-md-4 text-center mb-4">
-          <img src="icons/phone.png" alt="Phone Icon" class="contact-icon">
-          <p>+123 456 7890</p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <a href="https://linkedin.com" class="btn btn-outline-light mx-2">LinkedIn</a>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="bg-light text-center py-3">
-    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
-  </footer>
+							<!-- Technical Skills -->
+								<section>
+									<header class="major">
+										<i class="fa fa-wrench" aria-hidden="true"></i>
+										<h2>Technical Skills</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>Programming Languages:</h3>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Python</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">SQL</button>
+											</div>
+										</article>
+										<article>
+											<div class="content">
+												<h3>Libraries/Frameworks:</h3>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">TensorFlow</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Keras</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">PyTorch</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Scikit-Learn</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">LangChain</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Optuna</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">NLTK</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">SpaCy</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Pandas</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Numpy</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">OpenCV</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Tesseract OCR</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Docker</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">SHAP</button>
+											</div>
+										</article>
+										<article>
+											<div class="content">
+												<h3>Data Visualization:</h3>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Matplotlib</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Seaborn</button>
+												<button class="px-2.5 py-1 rounded-full text-sm font-sm bg-ds_blue_light text-ds_blue ring- mr-1 mb-1 cursor-default">Plotly</button>
+											</div>
+										</article>
+									</div>
+								</section>
 
-  <!-- Bootstrap JS (CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+							<!-- Projects -->
+								<section>
+									<header class="major">
+										<h2>Projects</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/books.jpg" alt="" /></a>
+											<h3>Ad Placement Optimization</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Book-Recommendation-System" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>RAG</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Medical Chatbot</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/K" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Object Detection</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Face Mask Detection using CNN</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Energy Demand Forecasting using ARIMA</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+									    <article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Fashion Recommendation System</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+										 <article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Hybrid Time Series Model</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/sms.jpg" alt="" /></a>
+											<h3>Spam SMS Classifier</h3>
+											<p>Intro</p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/Quora.jpg" alt="" /></a>
+											<h3>Quora Question Pairs</h3>
+											<p>Intro</p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Quora-Question-Pairing" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/bank.jpg" alt="" /></a>
+											<h3>Bank Customer Churn Prediction</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="https://github.com/Kushcode3/Bank-Customer-Churn-Prediction" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3>Project5</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3>Project6</h3>
+											<p>Intro<p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">About</a></li>
+										<li><a href="generic.html">Projects</a></li>
+										<li><a href="elements.html">Resume</a></li>
+										<li>
+											<span class="opener">Projects</span>
+											<ul>
+												<li><a href="https://github.com/Kushcode3/Book-Recommendation-System">Book Recommendation System</a></li>
+												<li><a href="https://github.com/Kushcode3/Sms-Spam-Classifier">Spam SMS Classifier</a></li>
+												<li><a href="https://github.com/Kushcode3/Quora-Question-Pairing">Quora Question Pairs</a></li>
+												<li><a href="https://github.com/Kushcode3/Bank-Customer-Churn-Prediction">Bank Customer Churn Prediction</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Achievements</span>
+											<ul>
+												<li><a href="#">GATE 2020 - Qualified</a></li>
+												<li><a href="#">GATE 2019 - Qualified</a></li>
+												<li><a href="#">GATE 2018 - Qualified</a></li>
+												<li><a href="#">GATE 2017 - Qualified</a></li>
+											</ul>
+										</li>
+
+										<li>
+											<span class="opener">Contact Me</span>
+											<ul>
+												<li><a href="#">LinkedIn</a></li>
+												<li><a href="#">Email</a></li>
+											</ul>
+										</li>
+										
+										<li><a href="https://ks3532036.wixsite.com/artwithksharma">Interest</a></li>
+									</ul>
+								</nav>
+
+	
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">kush.bhardwajjj@gmail.com</a></li>
+									    </li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Kuldeep 2025   All rights reserved.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
